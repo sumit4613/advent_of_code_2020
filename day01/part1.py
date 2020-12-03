@@ -30,6 +30,8 @@ def main() -> int:
     args = parser.parse_args()
 
     with open(args.data_file) as f:
+        # change compute to naive_compute to check output
+        # using naive approach
         print(compute(f.read()))
 
     return 0
