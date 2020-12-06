@@ -10,7 +10,6 @@ Total -> range(0, 127)
 F -> Lower Half -> range(0, 63)
 B -> Upper Half -> range(63, 127)
 """
-STRING = "FBFBBFFRLR"
 
 
 def compute(s: str) -> int:
